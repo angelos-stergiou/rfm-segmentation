@@ -3,10 +3,10 @@
 This project focuses on **customer segmentation** using **RFM analysis** and **K-Means clustering** based on **Recency, Frequency, and Monetary (RFM) features**. 
 
 The **goal** is to:
-✔ Use both models to perform customer segmentation 
-✔ Derive meaningful insights for the customer base 
+✔ Use both models to perform customer segmentation  
+✔ Derive meaningful insights for the customer base  
 ✔ Understand customer behavior with **simple yet effective models**  
-✔ Be used on real and more complex databases
+✔ Be used on real and more complex databases  
 
 💡 **Why a simple model?**  
 From my experience, **minimal effort models** like RFM + a simple KMeans can provide **valuable customer insights** and **quick business gains**. More advanced clustering approaches can be explored in the future.
@@ -26,10 +26,11 @@ From my experience, **minimal effort models** like RFM + a simple KMeans can pro
 ```
 📁 RFM & Clustering Project/
 │── 📂 Data_Lake/         # Processed data
+│── 📂 _archive/          # Archived scripts
+│    ├── full_script.ipynb  # Full version of the workflow (archived)
 │── 📜 data_processing.ipynb     # Cleans & preprocesses the dataset
 │── 📜 rfm_analysis.ipynb        # Computes RFM metrics
 │── 📜 k_means_clustering.ipynb  # Runs clustering & assigns segments
-│── 📜 full_script.ipynb         # Full version of the workflow
 │── 📜 README.md                 # Project documentation
 ```
 
