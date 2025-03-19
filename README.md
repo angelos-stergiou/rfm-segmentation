@@ -60,6 +60,7 @@ python kmeans_clustering.py
 
 ## 🏆 Business Impact
 This approach helps businesses:
+
 ✔ Identify **high-value customers**  
 ✔ Detect **churn risk & win-back opportunities**  
 ✔ Target **loyal customers with special offers**  
