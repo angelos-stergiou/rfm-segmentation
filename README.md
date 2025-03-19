@@ -3,6 +3,7 @@
 This project focuses on **customer segmentation** using **RFM analysis** and **K-Means clustering** based on **Recency, Frequency, and Monetary (RFM) features**. 
 
 The **goal** is to:
+
 ✔ Use both models to perform customer segmentation  
 ✔ Derive meaningful insights for the customer base  
 ✔ Understand customer behavior with **simple yet effective models**  
@@ -13,7 +14,7 @@ From my experience, **minimal effort models** like RFM + a simple KMeans can pro
 
 ---
 
-## 📌 Features
+## 📌 Steps
 - ✅ **Data Cleaning & Processing**
 - ✅ **RFM Analysis (Recency, Frequency, Monetary)**
 - ✅ **Finding the Optimal K for Clustering (Elbow Method & Silhouette Score)**
@@ -47,14 +48,6 @@ This project uses **real-world transactional data** from:
 
 ---
 
-## 📦 Installation
-Ensure you have **Python 3.8+** and install dependencies:
-```sh
-pip install -r requirements.txt
-```
-
----
-
 ## 🚀 Usage
 Run each script **in order**:
 ```sh
@@ -62,15 +55,6 @@ python data_processing.py
 python rfm_analysis.py
 python kmeans_clustering.py
 ```
-
----
-
-## 📊 Visualizations
-This project includes **interactive visualizations** with Plotly:
-- **Elbow Method & Silhouette Score** (for optimal `K`)
-- **Customer Segments Distribution**
-- **Monetary & Frequency Trends**
-- **Cluster Comparisons & Insights**
 
 ---
 
