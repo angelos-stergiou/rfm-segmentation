@@ -1,4 +1,4 @@
-# RFM & KMeans Segmentation 🚀
+# RFM & KMeans Segmentation
 
 This project focuses on **customer segmentation** using **RFM analysis** and **K-Means clustering** based on **Recency, Frequency, and Monetary (RFM) features**. 
 
@@ -48,7 +48,7 @@ This project uses **real-world transactional data** from:
 
 ---
 
-## 🚀 Usage
+## Usage
 Run each script **in order**:
 ```sh
 python data_processing.py
@@ -58,7 +58,7 @@ python kmeans_clustering.py
 
 ---
 
-## 🏆 Business Impact
+## Business Impact
 This approach helps businesses:
 
 ✔ Identify **high-value customers**  
@@ -68,7 +68,7 @@ This approach helps businesses:
 
 ---
 
-## 📌 License
+## License
 This project is **open-source**.
 
 ---
