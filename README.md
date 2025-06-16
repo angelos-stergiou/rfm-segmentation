@@ -19,7 +19,7 @@ From my experience, **minimal effort models** like RFM + a simple KMeans can pro
 - ✅ **RFM Analysis (Recency, Frequency, Monetary)**
 - ✅ **Finding the Optimal K for Clustering (Elbow Method & Silhouette Score)**
 - ✅ **KMeans Clustering with Grid Search**
-- ✅ **Interactive Data Visualizations with Plotly**
+- ✅ **Basic visuals for quick overview**
 
 ---
 
