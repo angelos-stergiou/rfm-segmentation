@@ -23,17 +23,25 @@ From my experience, **minimal effort models** like RFM + a simple KMeans can pro
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
+
+```text
+RFM & Clustering Project/
+│
+├── Data_Lake/              # Processed data storage
+│   ├── Input/              # Raw input files (CSV)
+│   └── Output/             # Cleaned data & segment outputs (Parquet, CSV)
+│
+├── _archive/               # Archived scripts
+│   └── full_script.ipynb   # Legacy monolithic workflow
+│
+├── data_processing.ipynb   # Loads and cleans the original dataset
+├── rfm_analysis.ipynb      # Calculates RFM scores and assigns segments
+├── k_means_clustering.ipynb# Runs KMeans clustering & optimizes parameters
+│
+└── README.md               # Project documentation
 ```
-📁 RFM & Clustering Project/
-│── 📂 Data_Lake/         # Processed data
-│── 📂 _archive/          # Archived scripts
-│    ├── full_script.ipynb  # Full version of the workflow (archived)
-│── 📜 data_processing.ipynb     # Cleans & preprocesses the dataset
-│── 📜 rfm_analysis.ipynb        # Computes RFM metrics
-│── 📜 k_means_clustering.ipynb  # Runs clustering & assigns segments
-│── 📜 README.md                 # Project documentation
-```
+
 
 ---
 ## 📊 Data Source
